@@ -33,8 +33,6 @@ public class Main {
 
                             System.out.println("Defina o diametro: ");
                             double diametro = leitura.nextDouble();
-
-
                         break;
                     }
                 break;
