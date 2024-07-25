@@ -29,6 +29,8 @@ public class Main {
                     switch (selecaoCalculo){
                         case 1:
                             RPM rpm = new RPM();
+                            System.out.println("Defina o tipo de ferramenta:");
+                            System.out.println("[1] Ferramenta HSS [2] Ferramenta Metal duro");
                             System.out.println("Defina o material");
 
                             System.out.println("Defina o diametro: ");
