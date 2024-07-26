@@ -20,12 +20,19 @@ public class Materiais {
         velocidadesHSS.put("Aço Carbono (C>0,45%)", 20.0);
         velocidadesHSS.put("Aço inoxidável", 10.0);
         velocidadesHSS.put("Aço ferramenta", 7.0);
+        velocidadesHSS.put("Ferro fundido", 15.0);
+        velocidadesHSS.put("Alumínio e ligas", 85.0);
+        velocidadesHSS.put("Latão", 75.0);
+        velocidadesHSS.put("Cobre", 55.0);
+        velocidadesHSS.put("Plásticos", 200.0);
 
         Map<String, Double> velocidadesMetalDuro = new HashMap<>();
         velocidadesMetalDuro.put("Aço Carbono (C<0,45%)", 70.0);
         velocidadesMetalDuro.put("Aço Carbono (C>0,45%)", 60.0);
         velocidadesMetalDuro.put("Aço inoxidável", 40.0);
         velocidadesMetalDuro.put("Aço ferramenta", 25.0);
+        velocidadesMetalDuro.put("Ferro fundido", 50.0);
+        velocidadesMetalDuro.put("Alumínio e ligas", 250.0);
 
         mapaMateriais.put("Aço Rápido (HSS)", velocidadesHSS);
         mapaMateriais.put("Metal duro", velocidadesMetalDuro);
